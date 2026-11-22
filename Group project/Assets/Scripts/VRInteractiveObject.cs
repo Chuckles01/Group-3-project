@@ -25,6 +25,6 @@ public class VRInteractiveObject : MonoBehaviour
 
     public void OnGazeExit()
     {
-        //transform.localScale = Vector3.one;
+        transform.localScale = Vector3.one;
     }
 }
